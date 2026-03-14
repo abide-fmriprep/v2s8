@@ -1,0 +1,127 @@
+# Table of FreeSurfer cortical parcellation anatomical statistics 
+# 
+# CreationTime 2026/03/14-03:28:21-GMT
+# generating_program mris_anatomical_stats
+# cvs_version 7.3.2
+# mrisurf.c-cvs_version 7.3.2
+# cmdline mris_anatomical_stats -th3 -mgz -noglobal -cortex ../label/rh.cortex.label -f ../stats/rh.aparc.a2009s.stats -b -a ../label/rh.aparc.a2009s.annot -c ../label/aparc.annot.a2009s.ctab sub-v2s8x29217_ses-1 rh white 
+# sysname  Linux
+# hostname dna003
+# machine  x86_64
+# user     oesteban
+# 
+# SUBJECTS_DIR /out/sourcedata/freesurfer
+# anatomy_type surface
+# subjectname sub-v2s8x29217_ses-1
+# hemi rh
+# AnnotationFile ../label/rh.aparc.a2009s.annot
+# AnnotationFileTimeStamp 2026/03/14 04:20:44
+# Measure Cortex, NumVert, Number of Vertices, 120729, unitless
+# Measure Cortex, WhiteSurfArea, White Surface Total Area, 84939.2, mm^2
+# Measure Cortex, MeanThickness, Mean Thickness, 2.90193, mm
+# NTableCols 10
+# TableCol  1 ColHeader StructName
+# TableCol  1 FieldName Structure Name
+# TableCol  1 Units     NA
+# TableCol  2 ColHeader NumVert
+# TableCol  2 FieldName Number of Vertices
+# TableCol  2 Units     unitless
+# TableCol  3 ColHeader SurfArea
+# TableCol  3 FieldName Surface Area
+# TableCol  3 Units     mm^2
+# TableCol  4 ColHeader GrayVol
+# TableCol  4 FieldName Gray Matter Volume
+# TableCol  4 Units     mm^3
+# TableCol  5 ColHeader ThickAvg 
+# TableCol  5 FieldName Average Thickness
+# TableCol  5 Units     mm
+# TableCol  6 ColHeader ThickStd
+# TableCol  6 FieldName Thickness StdDev
+# TableCol  6 Units     mm 
+# TableCol  7 ColHeader MeanCurv
+# TableCol  7 FieldName Integrated Rectified Mean Curvature
+# TableCol  7 Units     mm^-1
+# TableCol  8 ColHeader GausCurv 
+# TableCol  8 FieldName Integrated Rectified Gaussian Curvature
+# TableCol  8 Units     mm^-2
+# TableCol  9 ColHeader  FoldInd
+# TableCol  9 FieldName  Folding Index 
+# TableCol  9 Units      unitless 
+# TableCol 10 ColHeader CurvInd
+# TableCol 10 FieldName Intrinsic Curvature Index
+# TableCol 10 Units     unitless
+# ColHeaders StructName NumVert SurfArea GrayVol ThickAvg ThickStd MeanCurv GausCurv FoldInd CurvInd
+G_and_S_frontomargin                      908    619   2042  2.959 0.612     0.117     0.026       13     1.0
+G_and_S_occipital_inf                    1061    751   2496  2.880 0.760     0.112     0.023       11     0.8
+G_and_S_paracentral                      1516   1092   4133  2.961 0.663     0.133     0.027       20     1.7
+G_and_S_subcentral                       1030    723   3017  3.263 0.630     0.118     0.027       12     1.0
+G_and_S_transv_frontopol                 1024    808   3637  3.423 0.677     0.147     0.038       17     1.9
+G_and_S_cingul-Ant                       2582   1814   5144  2.887 0.621     0.108     0.020       20     2.2
+G_and_S_cingul-Mid-Ant                   1552   1027   2916  2.799 0.670     0.104     0.018       12     1.2
+G_and_S_cingul-Mid-Post                  1502   1057   2874  2.758 0.634     0.122     0.025       16     1.7
+G_cingul-Post-dorsal                      356    268   1362  3.217 0.903     0.149     0.043        5     0.7
+G_cingul-Post-ventral                     250    174    781  2.699 0.919     0.131     0.036        3     0.3
+G_cuneus                                 2341   1838   4802  2.221 0.774     0.164     0.042       39     4.6
+G_front_inf-Opercular                    1558   1102   3888  2.729 0.687     0.127     0.029       23     1.8
+G_front_inf-Orbital                       379    297   1225  2.827 0.821     0.143     0.034        7     0.5
+G_front_inf-Triangul                      969    711   3037  3.031 0.690     0.130     0.027       15     1.0
+G_front_middle                           3646   2723  12892  3.280 0.587     0.134     0.031       63     4.5
+G_front_sup                              6570   4735  21908  3.524 0.682     0.134     0.031       97     8.8
+G_Ins_lg_and_S_cent_ins                   588    427   1089  2.471 0.857     0.126     0.041        9     0.9
+G_insular_short                           672    490   1795  2.955 0.725     0.119     0.028       12     0.8
+G_occipital_middle                       2354   1717   7735  2.992 0.622     0.138     0.031       43     2.8
+G_occipital_sup                          1400    979   3183  2.562 0.500     0.119     0.023       19     1.2
+G_oc-temp_lat-fusifor                    1459   1070   4087  2.949 0.766     0.129     0.027       32     1.6
+G_oc-temp_med-Lingual                    2758   2108   6753  2.458 0.702     0.141     0.036       45     4.1
+G_oc-temp_med-Parahip                    1188    808   3135  2.983 0.992     0.127     0.031       17     1.4
+G_orbital                                2471   1807   8551  3.447 0.894     0.119     0.025       36     2.6
+G_pariet_inf-Angular                     2300   1706   7449  3.021 0.790     0.129     0.028       36     2.8
+G_pariet_inf-Supramar                    2488   1740   7090  3.039 0.707     0.133     0.028       38     2.8
+G_parietal_sup                           2646   2011   7937  2.944 0.540     0.136     0.028       42     3.0
+G_postcentral                            2191   1651   6189  2.830 0.827     0.142     0.030       36     3.0
+G_precentral                             2208   1526   7613  3.443 0.473     0.115     0.020       25     1.9
+G_precuneus                              2503   1901   8311  3.040 0.775     0.141     0.034       48     3.4
+G_rectus                                  659    576   2874  3.445 0.661     0.177     0.050       22     1.5
+G_subcallosal                             518    307    879  2.692 1.011     0.122     0.048        7     0.7
+G_temp_sup-G_T_transv                     363    228    652  2.496 0.730     0.107     0.014        4     0.2
+G_temp_sup-Lateral                       1846   1221   5944  3.291 0.870     0.107     0.021       24     1.7
+G_temp_sup-Plan_polar                     901    597   2010  3.131 1.040     0.075     0.012        3     0.5
+G_temp_sup-Plan_tempo                     826    565   1923  3.174 0.793     0.090     0.018        6     0.6
+G_temporal_inf                           2039   1621   6507  3.138 0.746     0.139     0.032       42     2.7
+G_temporal_middle                        2693   2030  10379  3.429 0.820     0.136     0.032       47     3.4
+Lat_Fis-ant-Horizont                      417    279    718  2.834 0.640     0.082     0.011        2     0.1
+Lat_Fis-ant-Vertical                      102     70    219  3.263 0.542     0.105     0.012        0     0.1
+Lat_Fis-post                             1291    832   1994  2.867 0.732     0.081     0.012        5     0.6
+Pole_occipital                           3460   2527   6393  2.216 0.650     0.139     0.032       47     4.8
+Pole_temporal                            1179    912   3024  2.803 0.978     0.134     0.031       23     1.5
+S_calcarine                              2367   1666   3427  2.437 0.542     0.108     0.021       17     2.2
+S_central                                2642   1749   3413  2.323 0.648     0.090     0.013       13     1.5
+S_cingul-Marginalis                      1487    966   2570  3.051 0.670     0.086     0.012        7     0.8
+S_circular_insula_ant                     623    398    904  2.864 0.604     0.073     0.011        2     0.2
+S_circular_insula_inf                    1193    760   1708  2.825 0.773     0.083     0.019        6     1.2
+S_circular_insula_sup                    1546   1019   2402  3.006 0.536     0.091     0.015        5     1.1
+S_collat_transv_ant                      1130    719   1773  2.944 0.459     0.070     0.007        3     0.4
+S_collat_transv_post                      466    310    671  2.456 0.494     0.106     0.018        3     0.4
+S_front_inf                              2558   1737   5155  3.010 0.529     0.110     0.017       19     2.0
+S_front_middle                           2772   2008   6399  2.873 0.516     0.117     0.023       29     2.8
+S_front_sup                              2715   1847   4775  2.865 0.473     0.095     0.016       15     2.0
+S_interm_prim-Jensen                      220    158    446  2.778 0.395     0.087     0.011        1     0.1
+S_intrapariet_and_P_trans                3029   2040   4780  2.523 0.499     0.090     0.013       18     1.8
+S_oc_middle_and_Lunatus                  1313    859   1967  2.774 0.503     0.101     0.016        7     1.0
+S_oc_sup_and_transversal                 1317    865   1980  2.474 0.440     0.092     0.013        7     0.7
+S_occipital_ant                           908    604   1619  2.812 0.610     0.095     0.015        5     0.5
+S_oc-temp_lat                             703    508   1661  3.174 0.571     0.123     0.023        7     0.7
+S_oc-temp_med_and_Lingual                1816   1233   2825  2.525 0.788     0.091     0.014        8     1.1
+S_orbital_lateral                         319    222    461  2.439 0.354     0.096     0.012        1     0.2
+S_orbital_med-olfact                      464    312    895  3.014 0.723     0.094     0.018        2     0.3
+S_orbital-H_Shaped                       1279    921   3420  3.631 0.792     0.126     0.025       11     1.7
+S_parieto_occipital                      2243   1476   3687  2.850 0.631     0.086     0.014       12     1.4
+S_pericallosal                           1568   1022   1258  1.436 0.532     0.092     0.014       17     1.0
+S_postcentral                            2931   1958   4917  2.745 0.586     0.107     0.018       23     2.3
+S_precentral-inf-part                    1842   1218   3195  3.045 0.434     0.098     0.016       11     1.4
+S_precentral-sup-part                    1194    769   1982  3.062 0.391     0.083     0.013        4     0.6
+S_suborbital                              121     87    238  3.219 0.400     0.129     0.016        1     0.1
+S_subparietal                            1200    848   2193  2.654 0.597     0.121     0.021       10     1.2
+S_temporal_inf                           1279    844   1884  2.854 0.395     0.110     0.018        8     1.1
+S_temporal_sup                           6450   4198  10649  2.864 0.561     0.083     0.011       30     3.3
+S_temporal_transverse                     270    176    544  3.453 0.701     0.083     0.006        1     0.1
